@@ -1,5 +1,5 @@
-/Users/rajeev/Desktop/rust/course/variables/target/debug/deps/variables-d7f9c9869ca462d2.d: src/main.rs
+/Users/rajeev/Desktop/rust_basics/course/variables/target/debug/deps/variables-d7f9c9869ca462d2.d: src/main.rs
 
-/Users/rajeev/Desktop/rust/course/variables/target/debug/deps/libvariables-d7f9c9869ca462d2.rmeta: src/main.rs
+/Users/rajeev/Desktop/rust_basics/course/variables/target/debug/deps/libvariables-d7f9c9869ca462d2.rmeta: src/main.rs
 
 src/main.rs:
