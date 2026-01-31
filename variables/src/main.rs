@@ -6,5 +6,7 @@ fn main() {
     println!("Total count: {total_count} apples and {banana_count} bananas");
     println!("Total count: {0} apples and {1} bananas. I can't believe I have {0} apples and {1} bananas.", apple_count, banana_count);
     println!("{{}}");
+    apple_count = 11;
+    print!("apple_count: {apple_count}");
 
 }
