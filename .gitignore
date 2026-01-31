@@ -1,2 +1,2 @@
-/hello_world/target
-/variables/target
+# Cargo build output (all crates)
+**/target/
