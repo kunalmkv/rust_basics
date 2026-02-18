@@ -1,4 +1,6 @@
 #[derive(Debug)]
+
+/* 
 enum Shape {
     Circle,
     Rectangle,
@@ -14,8 +16,7 @@ fn main() {
     let circle: Shape = Shape::new_circle();
     println!("Circle:{:?}", circle);
 }
-
-
+*/
 
 enum Shapes2 {
     Circle(f64),
@@ -40,4 +41,9 @@ impl Shapes2 {
 
 fn main() {
     let circle = Shapes2::declare_circle(10.0);
+    println!("Circle:{:?}", circle);
+    let rectangle = Shapes2::declare_rectangle(10.0, 5.0);
+    println!("Rectangle:{:?}", rectangle);
+    let triangle = Shapes2::declare_triangle(3.0, 4.0, 5.0);
+    println!("Triangle:{:?}", triangle);
 }
