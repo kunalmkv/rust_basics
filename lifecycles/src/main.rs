@@ -1,7 +1,10 @@
 fn main() {
-    let r: &mut i32;
-    let mut x = 5;
-    r = &mut x;
-    x = x + 1;
-    println!("{}", r);
+    let x = 10;
+    let y = get_val();
+
+    println!("x+y:{}", x + y);
+}
+fn get_val() -> i32 {
+    let y = 5;
+    y
 }
